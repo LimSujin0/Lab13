@@ -43,7 +43,7 @@ public class Prob4 {//this is a public class named Prob4
 		System.out.print("Enter List2: ");//display "Enter List2: " on the monitor
 		for(int i =0; i<m2.length; i++) {//this is a nested for loop for i=0~(m2.length-1)
 			for(int j =0; j<m2[i].length; j++) {//this is for loop for j=0~(m2[i].length-1)
-				m1[i][j] = keyboard.nextInt();//set m2[i][j] to integer from user
+				m2[i][j] = keyboard.nextInt();//set m2[i][j] to integer from user
 			}
 		}
 		
